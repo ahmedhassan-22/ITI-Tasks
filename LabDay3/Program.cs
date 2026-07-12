@@ -89,7 +89,7 @@ namespace Day1
 
             for (i = 0; i < cnt; i++)
             {
-                Console.WriteLine($"Student ID {i + 1}");
+                Console.WriteLine($"Students ID {i + 1}");
                 for (j = 0; j < cols; j++)
                     Console.Write($"Course {j + 1} = {arr[i, j]} \t");
                 Console.WriteLine("\n");
