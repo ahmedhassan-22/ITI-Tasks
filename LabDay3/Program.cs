@@ -13,7 +13,7 @@ namespace Day1
     {
         static void FillArray(int[,] arr, int row, int col)
               {
-                    //int NumOfRow = arr.GetLength(0), NumOfCol = arr.GetLength(1),r , c;
+            row = arr.GetLength(0) ; col = arr.GetLength(1);
                     for (int r = 0; r < row; r++)
                     {
                         //Console.WriteLine($"Student ID: {r+ 1}");
@@ -95,12 +95,17 @@ namespace Day1
                 Console.WriteLine("\n");
             }
         }
-        static void Main()
+        /* static void Main()
+         {
+                         int[,] arr = new int[3, 3];
+                         FillArray(arr, 3, 3);
+                         PrintArray(arr, 3, 3);
+
+         }*/
+        static void Main(string[] args)
         {
-                        int[,] arr = new int[3, 3];
-                        FillArray(arr, 3, 3);
-                        PrintArray(arr, 3, 3);
            
+
         }
     }
 }
