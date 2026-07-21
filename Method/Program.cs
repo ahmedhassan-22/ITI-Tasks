@@ -15,7 +15,8 @@ namespace Day1
         static void PrintArray(int[] number)
         {
 
-            for (int i = 1 ; i <= number.Length ; i++)
+          //  for (int i = 1 ; i <= number.Length ; i++)
+          foreach(int i in number)
             {
                 Console.WriteLine(i);
             }
